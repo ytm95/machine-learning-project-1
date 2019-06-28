@@ -14,7 +14,10 @@ In general, transfer learning offers the following benefits:
 In our case, the biggest benefit of using transfer learning is that we can use an extremely complex model structure without having to develop it and train it ourselves. 
 
 ### Pre-trained model we use
-For our model, we use the pre-trained VGG16 model. VGG16 was developed by researchers at the University of Oxford and offered an improvement over AlexNet. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. The model consists of 13 convolutions and 5 poolings. It also includes 3 layers of fully connected layers. 
+For our model, we use the pre-trained [VGG16](https://arxiv.org/abs/1409.1556) model. VGG16 was developed by researchers at the University of Oxford and offered an improvement over AlexNet. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. The model consists of 13 convolutions and 5 poolings. It also includes 3 layers of fully connected layers. Here you can see an illustration of VGG16:
+
+![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16.png)
+
 
 ### Customizing the pre-trained model
 To fit VGG16 to our purpose of aerial cactus identification, we replace the top 3 layers with our own layers. This allows us to take advantage of the 13 convolutions and 5 poolings of VGG16 and at the same time ensures that our model is customized to cactus detection.
