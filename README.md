@@ -28,7 +28,8 @@ The approaches that we've taken are as follows:
 | [Section 03: Transfer Learning Model](3-transfer-learning-model) |
 
 
-Through tackling the same project with different approaches, we were able to compare the advantages and disadvantages of each of the approaches such as the total time required for running the model, different options we can set for each of the methods. This in conclusion allowed us to better understand what approaches we should be taking for other neural network projects in the future according to the different project conditions and requirements. 
+
+Through tackling the same project with different approaches, we were able to compare the advantages and disadvantages of each of the approaches such as the total time required for running the model, different options we can set for each of the methods. This in conclusion, allowed us to better understand what approaches we should be taking for other neural network projects in the future according to the different project conditions and requirements. 
 
 ## Results
 
@@ -36,7 +37,8 @@ For all of the differnt approaches made, the results were as follows:
 
 ## Conclusion
 
+Comparing the different methods 
 
 ### Further Explorations
 
-
+Any questions or even uncertainties that we had throughout the project
