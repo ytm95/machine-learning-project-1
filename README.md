@@ -36,6 +36,6 @@ For all of the differnt approaches made, the results were as follows:
 
 Comparing the different methods 
 
-### Further Explorations
+## Further Explorations
 
 Any questions or even uncertainties that we had throughout the project
