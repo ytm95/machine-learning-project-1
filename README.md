@@ -5,15 +5,15 @@
 
 The purpose of the project was to apply what we've learned on image recognition in a more realistic situation and explore different kinds of approches we can take and compare the results. 
 
-In regards, we chose the 'Aerial Cactus Identification' (https://www.kaggle.com/c/aerial-cactus-identification), where we were to identify a specific type of cactus from different aerial imageries. 
+In regards, we chose the 'Aerial Cactus Identification' (https://www.kaggle.com/c/aerial-cactus-identification), where we were to identify if an image has a specific type of cactus from different aerial angles. 
 
 ### Dataset
 
-The dataset contains 17500 aerial images of a certain type of cactus. The image files were already unified in size, which made it more convenient in terms of image preprocessing. 
+The dataset contains 17500 aerial images of a certain type of cactus. The image files were already unified in size, which made it more convenient in terms of image preprocessing. The training images were labelled with a binary value `has_cactus` = 1 or 0.
 
 ## Approaches
 
-In order to explore different approaches and packages offered for image recognition, we've made multiple submission to Kaggle Competition using different methods. 
+In order to explore different approaches and packages offered for image recognition, we made multiple submission to Kaggle Competition using different methods. 
 
 The approaches that we've taken are as follows:
 
@@ -38,4 +38,6 @@ Comparing the different methods
 
 ## Further Explorations
 
-Any questions or even uncertainties that we had throughout the project
+* We were constantly faced with the problem of the multiplicity of good models and not enough computational power to find the best model. We approached this problem as best as we could with random grid searches and learning from previous Kaggle kernels however, maybe we could further improve our performance by :
+* learning to build neural networks using Spark on clusters to run a wider grid search
+* understand samples of our data better to set better ranges for our hyperparameters
