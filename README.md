@@ -1,8 +1,7 @@
 # Machine Learning - Aerial Cactus
-## Yoo Na Cha, Jordan Manchev, Nupur Neti, Michael Schweizer
+### Yoo Na Cha, Jordan Manchev, Nupur Neti, Michael Schweizer
 
-ML Final project kaggle competition 
-https://www.kaggle.com/c/aerial-cactus-identification
+Participated Competition: Aerial Cactus Identification (Determine whether an image contains a columnar cactus)
 
 ## Project Description
 
