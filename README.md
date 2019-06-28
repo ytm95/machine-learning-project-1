@@ -1,7 +1,5 @@
-# Machine Learning - Aerial Cactus
+# Aerial Cactus Identification
 ### Yoo Na Cha, Jordan Manchev, Nupur Neti, Michael Schweizer
-
-Participated Competition: Aerial Cactus Identification (Determine whether an image contains a columnar cactus)
 
 ## Project Description
 
