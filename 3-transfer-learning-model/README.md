@@ -23,5 +23,20 @@ For our model, we use the pre-trained [VGG16](https://arxiv.org/abs/1409.1556) m
 To fit VGG16 to our purpose of aerial cactus identification, we replace the top 3 layers with our own layers. This allows us to take advantage of the 13 convolutions and 5 poolings of VGG16 and at the same time ensures that our model is customized to cactus detection.
 
 ### Our code
-In our code, we first import the data (images). We then download the VGG16 model and freeze all the layers besides the top 3 layers. We then define our own top layers and train them on the images. This completes the transfer learning process and allows us to test our model on the test data.
+We have completed the following steps in our code:
+1. Setting up
+    - Import packages
+    - Set directories
+2. Data preparation
+    - Import data
+    - Prepare data for modelling
+3. Import transfer model
+    - Download VGG16 model structure and weights
+    - Freeze weights of lower layers
+4. Training our own custom layers on top of transfer model
+    - Conduct grid search to find optimal structure of top classification layers
+    - Train top classification layers
+5. Testing model and prepare submission
+    - Run model on test data
+    - Prepare submission file for Kaggle competition
 
