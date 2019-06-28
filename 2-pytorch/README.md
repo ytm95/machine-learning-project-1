@@ -10,5 +10,8 @@ Another benefits of PyTorch that we spent time exploring was its efficiency in m
 - cv2 was used to read the images into the model
 - When defining the `DataLoader` class, we set parameters in a way that makes batches look differnt among the epochs being ran in the model. We did want to try running the batches in parallel by setting `num_workers` to non zero, but the local computer wasn't able to handle the process.
 
-After reading in the data with a defined class, the images were tranformed and generated into train and validation dataset for the model. Using the `nn.Module`, we defined the convolutional neural network model and trained in the model with 25 epochs. 
+First convolutional layer then batchnorm, then activation then pooling layer.
+
+After reading in the data with a defined class, the images were tranformed and generated into train and validation dataset for the model. Using the `nn.Module`, we defined the convolutional neural network model with five convolutional layer and batch norm, then activation and then pooling layer. The datasets were trained in the model with 25 epochs. 
+
 ### Results
