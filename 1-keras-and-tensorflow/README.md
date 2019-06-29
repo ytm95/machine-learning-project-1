@@ -30,3 +30,7 @@ We decided to use grid search over the following hyperparameters:
 * L1 and L2 regularization
 
 We run a random grid search instead of a cartesian grid search to reduce the computation time. We use 3-fold cross validation during the grid search on the entire dataset for 80 epochs. We use a loss function of `mean_squared_error` (this surprisingly gives us better results than using `binary_crossentropy` which is usually used in binary classification problems) and choose the best performing model to predict on our test data. 
+
+The grid search notebook can be found [here] (https://github.com/netinupur/machine-learning-project/blob/master/1-keras-and-tensorflow/CNN%20from%20Kaggle%20with%20random%20gridsearch.ipynb)
+
+The final model and results can be found [in this notebook](https://github.com/netinupur/machine-learning-project/blob/master/1-keras-and-tensorflow/Keras_CNN_best_model.ipynb)
