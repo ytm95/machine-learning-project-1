@@ -37,7 +37,7 @@ Detailed results from each of the models can be found below.
 
 | Model | Test/Valid Accuracy | Test AUC (Kaggle Submission) |
 |:-----: | :-----: | :-----: |
-| Keras and Tensorflow|0 | 0.9992|
+| Keras and Tensorflow| 0.9521 | 0.9994|
 |PyTorch | 99.4857 | 0.9990 |
 |Transfer Learning Model | *0.977* |0 |
 
