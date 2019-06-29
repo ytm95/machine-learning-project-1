@@ -39,4 +39,6 @@ We have completed the following steps in our code:
 5. Testing model and prepare submission
     - Run model on test data
     - Prepare submission file for Kaggle competition
+### Results
+Running this transfer model with 10 epochs yielded 94.2% accuracy on the Kaggle kernel. The same model with 500 epochs yielded 96.3%, and 97.7% at 750. We believe there is further room to train the model and one can reach 99% accuracy at 1000+ epochs.
 
