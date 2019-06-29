@@ -39,7 +39,7 @@ Detailed results from each of the models can be found below.
 |:-----: | :-----: | :-----: |
 | Keras and Tensorflow|0 | 0.9992|
 |PyTorch | 99.4857 | 0.9990 |
-|Transfer Learning Model | 0|0 |
+|Transfer Learning Model | *0.977* |0 |
 
 We can see that models from scratch using Keras or PyTorch scored higher than transfer learning models by a very small difference. We councluded that this is because of the nature of the project, which was relatively simple and did not require for considering complex conditions. 
 
