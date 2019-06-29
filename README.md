@@ -27,15 +27,22 @@ The approaches that we've taken are as follows:
 
 Through tackling the same project with different approaches, we were able to compare the advantages and disadvantages of each of the approaches such as the total time required for running the model, different options we can set for each of the methods. This in conclusion, allowed us to better understand what approaches we should be taking for other neural network projects in the future according to the different project conditions and requirements. 
 
-## Results
+## Results and Conclusion
 
 For all of the different approaches made, the results were as follows:
 ![Kaggle Leaderboard Position](https://github.com/netinupur/machine-learning-project/blob/master/kaggle_leaderboard.png)
 
+The result from the image above is from submitting the keras model, which scored the highest submission AUC among the three models. 
+Detailed results from each of the models can be found below. 
 
-## Conclusion
+| Model | Test/Valid Accuracy | Test AUC (Kaggle Submission) |
+|:-----: | :-----: | :-----: |
+| Keras and Tensorflow|0 | 0.9992|
+|PyTorch | 99.4857 | 0.9990 |
+|Transfer Learning Model | 0|0 |
 
-Comparing the different methods 
+We can see that models from scratch using Keras or PyTorch scored higher than transfer learning models by a very small difference. We councluded that this is because of the nature of the project, which was relatively simple and did not require for considering complex conditions. 
+
 
 ## Further Explorations
 
