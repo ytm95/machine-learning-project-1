@@ -24,8 +24,8 @@ The approaches that we've taken are as follows:
 | [Section 03: Transfer Learning Model](3-transfer-learning-model) |
 
 
-
 Through tackling the same project with different approaches, we were able to compare the advantages and disadvantages of each of the approaches such as the total time required for running the model, different options we can set for each of the methods. This in conclusion, allowed us to better understand what approaches we should be taking for other neural network projects in the future according to the different project conditions and requirements. 
+
 
 ## Results and Conclusion
 
@@ -40,8 +40,11 @@ Detailed results from each of the models can be found below.
 |PyTorch | 99.48% | 0.9990 |
 |Transfer Learning Model | 97.7% |0 |
 
-We can see that models from scratch using Keras or PyTorch scored higher than transfer learning models by a very small difference. We councluded that this is because of the nature of the project, which was relatively simple and did not require for considering complex conditions. 
+We can see that models from scratch using Keras or PyTorch scored higher than transfer learning models by a small difference. We councluded that this is because of the nature of the project, which was relatively specific and thus the generic trained model did not perform as well. 
 
+Since the Keras and Tensorflow Model which was trained purely on the training data gave us the best test AUC, we chose to submit this model to the Kaggle competition.
+
+![Kaggle results](https://github.com/netinupur/machine-learning-project/blob/master/kaggle_leaderboard.png)
 
 ## Further Explorations
 
