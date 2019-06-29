@@ -42,7 +42,7 @@ Detailed results from each of the models can be found below.
 
 We can see that models from scratch using Keras or PyTorch scored higher than transfer learning models by a small difference. We councluded that this is because of the nature of the project, which was relatively specific and thus the generic trained model did not perform as well. 
 
-Since the Keras and Tensorflow Model which was trained purely on the training data gave us the best test AUC, we chose to submit this model to the Kaggle competition.
+Since the Keras and Tensorflow Model which was trained purely on the training data gave us the best test AUC, we chose to submit this model to the Kaggle competition. Our rank was 514 out of 1092 submissions.
 
 ![Kaggle results](https://github.com/netinupur/machine-learning-project/blob/master/kaggle_leaderboard.png)
 
