@@ -37,7 +37,7 @@ Comparing the different methods
 
 ## Further Explorations
 
-We were constantly faced with the problem of the multiplicity of good models and not enough computational power to find the best model. We approached this problem as best as we could with random grid searches and learning from previous Kaggle kernels however, maybe we could further improve our performance by :
+We were constantly faced with the problem of the multiplicity of good models and not enough computational power to find the best model. We approached this problem as best as we could with random grid searches and learning from previous Kaggle kernels. However, maybe we could further improve our performance by :
 
 * learning to build neural networks using Spark on clusters to run a wider grid search
 * understand samples of our data better to set better ranges for our hyperparameters
