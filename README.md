@@ -29,7 +29,9 @@ Through tackling the same project with different approaches, we were able to com
 
 ## Results
 
-For all of the differnt approaches made, the results were as follows:
+For all of the different approaches made, the results were as follows:
+![Kaggle Leaderboard Position](link-to-image)
+
 
 ## Conclusion
 
