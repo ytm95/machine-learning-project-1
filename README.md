@@ -37,9 +37,9 @@ Detailed results from each of the models can be found below.
 
 | Model | Test/Valid Accuracy | Test AUC (Kaggle Submission) |
 |:-----: | :-----: | :-----: |
-| Keras and Tensorflow| 0.9521 | 0.9994|
-|PyTorch | 99.4857 | 0.9990 |
-|Transfer Learning Model | *0.977* |0 |
+| Keras and Tensorflow| 95.21% | 0.9994|
+|PyTorch | 99.48% | 0.9990 |
+|Transfer Learning Model | 97.7% |0 |
 
 We can see that models from scratch using Keras or PyTorch scored higher than transfer learning models by a very small difference. We councluded that this is because of the nature of the project, which was relatively simple and did not require for considering complex conditions. 
 
