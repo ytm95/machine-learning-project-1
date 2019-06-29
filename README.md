@@ -30,7 +30,7 @@ Through tackling the same project with different approaches, we were able to com
 ## Results
 
 For all of the different approaches made, the results were as follows:
-![Kaggle Leaderboard Position](link-to-image)
+![Kaggle Leaderboard Position](https://github.com/netinupur/machine-learning-project/blob/master/kaggle_leaderboard.png)
 
 
 ## Conclusion
