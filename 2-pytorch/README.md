@@ -24,4 +24,4 @@ After reading in the data with a defined class, the images were tranformed and g
 ### Results
 
 The initial submission scored 0.9990 and was at the 524th place on the Kaggle scoreboard.
-We tried to make some changes to the number of hyperparameters, number of layers and even the train and test split proportion and was able to increase the accuracy score up to 0.9997. 
+We tried to make some changes to the number of hyperparameters, number of layers and even the train and test split proportion and was able to increase the score up to 0.9997. 
