@@ -30,7 +30,6 @@ Through tackling the same project with different approaches, we were able to com
 ## Results and Conclusion
 
 For all of the different approaches made, the results were as follows:
-![Kaggle Leaderboard Position](https://github.com/netinupur/machine-learning-project/blob/master/kaggle_leaderboard.png)
 
 The result from the image above is from submitting the keras model, which scored the highest submission AUC among the three models. 
 Detailed results from each of the models can be found below. 
